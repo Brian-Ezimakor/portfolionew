@@ -912,6 +912,10 @@ padding-inline: 10px;
 .testimonial-section h2 {
 font-size: 19.5px;
 }
+
+footer{
+padding-inline: 12px;
+}
 }
 
 @media screen and (max-width: 640px){
