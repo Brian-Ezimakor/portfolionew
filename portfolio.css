@@ -904,6 +904,14 @@ margin-top: 16px;
 .slide {
 width: 86%;
 }
+
+.testimonial-section {
+padding-inline: 10px;
+}
+
+.testimonial-section h2 {
+font-size: 19.5px;
+}
 }
 
 @media screen and (max-width: 640px){
