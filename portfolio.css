@@ -627,7 +627,7 @@ background-repeat: no-repeat;
 background-size: cover;
 object-fit: cover;
 height: 75px;
-width: 74px;
+width: 75px;
 border-radius: 50%;
 }
 
@@ -854,6 +854,8 @@ color: white;
 }
 
 
+
+
 @media screen and (max-width: 475px){
 body {
 overflow-x: hidden;
@@ -910,10 +912,10 @@ padding-inline: 10px;
 }
 
 .testimonial-section h2 {
-font-size: 19.5px;
+font-size: 19px;
 }
 
-footer{
+footer, #footer {
 padding-inline: 12px;
 }
 }
