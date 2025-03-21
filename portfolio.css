@@ -362,13 +362,15 @@ text-transform: capitalize;
 margin-bottom: 20px;
 animation: slide linear forwards;
 animation-timeline: view();
-animation-range: 249px 340px;
+animation-range: 250px 400px;
+opacity: 0;
+scale: 0.75;
 }
 
 @keyframes slide {
     to {
         opacity: 1;
-        transform: translateX(0px);
+        scale: 1;
     }
 }
 
@@ -413,6 +415,23 @@ display: flex;
 align-items: center;
 justify-content: center;
 font-size: 16px;
+}
+
+.chat {
+transform: translateY(50px);
+filter: blur(20px);
+opacity: 0;
+animation: revealText linear forwards;
+animation-timeline: view();
+animation-range: 250px 300px;
+/* animation-delay: 1.3s; */
+}
+@keyframes revealText {
+    to {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
 }
 
 .about button a{
