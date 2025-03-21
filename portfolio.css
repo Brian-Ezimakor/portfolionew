@@ -257,9 +257,7 @@ left: 0;
 bottom: 0;
 overflow: hidden;
 z-index: 2;
-}
-
-.slide {
+display: none;
 left: -700px;
 transition: 0.5s;
 }
@@ -904,6 +902,7 @@ margin-top: 16px;
 }
 
 .slide {
+display: block;
 width: 86%;
 }
 
@@ -932,6 +931,10 @@ display: none;
 
 .content {
 height: 90svh;
+}
+
+.slide {
+display: block;
 }
 
 .connect {
@@ -1091,6 +1094,10 @@ padding-left: 50%;
 gap: 1px;
 height: 100svh;
 padding-left: 0.4rem;
+}
+
+.slide {
+display: block;
 }
 
 .content h1 {
