@@ -939,8 +939,7 @@ padding-inline: 12px;
 }
 }
 
-/*
-@media screen and (max-width: 640px){
+@media screen and (min-width: 475px) and ( max-width: 640px){
 .intro {
 padding-top: 10%;
 padding-left: 6%;
@@ -1097,7 +1096,7 @@ font-size: 44px;
 }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 640px) and (max-width: 768px) {
 ul {
 display: none;
 }
@@ -1178,7 +1177,7 @@ text-align: center;
 }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 nav {
 padding-left: 2rem;
 padding-right: 2rem;
@@ -1246,7 +1245,11 @@ width: 100%;
 padding-inline: 5px;
 }
 }
-*/
+
+@media screen and (min-width: 1024px) {
+.intropic {
+display: block;
+}
 
 /* @media screen and (max-width: 1536px){
 
