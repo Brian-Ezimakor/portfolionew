@@ -939,6 +939,7 @@ padding-inline: 12px;
 }
 }
 
+/*
 @media screen and (max-width: 640px){
 .intro {
 padding-top: 10%;
@@ -1245,7 +1246,7 @@ width: 100%;
 padding-inline: 5px;
 }
 }
-
+*/
 
 /* @media screen and (max-width: 1536px){
 
