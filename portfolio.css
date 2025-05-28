@@ -1176,7 +1176,7 @@ text-align: center;
 }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1024px){
 nav {
 padding-left: 2rem;
 padding-right: 2rem;
@@ -1197,6 +1197,7 @@ padding-left: 2rem;
 
 .intropic {
 height: 510px;
+display: block;
 }
 
 .content {
@@ -1243,6 +1244,7 @@ width: 100%;
 padding-inline: 5px;
 }
 }
+
 
 /* @media screen and (max-width: 1536px){
 
