@@ -186,6 +186,7 @@ justify-content: center;
 
 .intropic {
 padding-top: 80px;
+display: block;
 }
 
 h1 {
@@ -1176,7 +1177,7 @@ text-align: center;
 }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (max-width: 1024px){
 nav {
 padding-left: 2rem;
 padding-right: 2rem;
