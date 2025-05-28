@@ -1005,7 +1005,6 @@ object-fit: cover;
 background-size: cover;
 object-position: center;
 background-repeat: none;
-margin-top: -95px;
 padding-left: 3%;
 }
 
@@ -1134,7 +1133,6 @@ margin-inline: auto;
 padding-inline: auto;
 height: 40%;
 width: 40%;
-display: none;
 }
 
 .about img {
